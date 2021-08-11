@@ -19,4 +19,13 @@ public class BaseBallCoach implements Coach {
 		return thisFortune.getFortune();
 	}
 
+	public void doMyStartupStuff()
+	{
+		System.out.println("startup method");
+	}
+	
+	public void doMyCleanupStuff()
+	{
+		System.out.println("cleanup stuff");
+	}
 }
